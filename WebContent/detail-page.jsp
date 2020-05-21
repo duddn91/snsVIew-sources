@@ -9,20 +9,20 @@
 
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <!-- Facebook Meta Tags / íì´ì¤ë¶ ì¤í ê·¸ëí -->
+    <!-- Facebook Meta Tags / 페이스북 오픈 그래프 -->
     <meta property="og:url" content="http://kindtiger.dothome.co.kr/insta">
     <meta property="og:type" content="website">
     <meta property="og:title" content="instagram">
     <meta property="og:description" content="instagram clone">
     <meta property="og:image" content="http://kindtiger.dothome.co.kr/insta/imgs/instagram.jpeg">
     .
-    <!-- Twitter Meta Tags / í¸ìí° -->
+    <!-- Twitter Meta Tags / 트위터 -->
     <meta name="twitter:card" content="instagram clone">
     <meta name="twitter:title" content="instagram">
     <meta name="twitter:description" content="instagram clone">
     <meta name="twitter:image" content="http://kindtiger.dothome.co.kr/insta/imgs/instagram.jpeg">
 
-    <!-- Google / Search Engine Tags / êµ¬ê¸ ê²ì ìì§ -->
+    <!-- Google / Search Engine Tags / 구글 검색 엔진 -->
     <meta itemprop="name" content="instagram">
     <meta itemprop="description" content="instagram clone">
     <meta itemprop="image" content="http://kindtiger.dothome.co.kr/insta/imgs/instagram.jpeg">
@@ -52,7 +52,7 @@
         <section class="h_inner">
 
             <h1 class="logo">
-                <a href="index.jsp">
+                <a href="index.html">
                     <div class="sprite_insta_icon"></div>
                     <div>
                         <div class="sprite_write_logo"></div>
@@ -61,20 +61,20 @@
             </h1>
 
             <div class="search_field">
-                <input type="text" placeholder="ê²ì" tabindex="0">
+                <input type="text" placeholder="검색" tabindex="0">
 
                 <div class="fake_field">
                     <span class=sprite_small_search_icon></span>
-                    <span>ê²ì</span>
+                    <span>검색</span>
                 </div>
             </div>
 
 
             <div class="right_icons">
-                <a href="new_post.jsp"><div class="sprite_camera_icon"></div></a>
-                <a href="login.jsp"><div class="sprite_compass_icon"></div></a>
-                <a href="follow.jsp"><div class="sprite_heart_icon_outline"></div></a>
-                <a href="profile.jsp"><div class="sprite_user_icon_outline"></div></a>
+                <a href="new_post.html"><div class="sprite_camera_icon"></div></a>
+                <a href="login.html"><div class="sprite_compass_icon"></div></a>
+                <a href="follow.html"><div class="sprite_heart_icon_outline"></div></a>
+                <a href="profile.html"><div class="sprite_user_icon_outline"></div></a>
             </div>
         </section>
     </header>
@@ -109,9 +109,9 @@
                             </div>
                             <div class="sprite_more_icon" data-name="more">
                                 <ul class="more_detail">
-                                    <li>íë¡ì°</li>
-                                    <li>ìì </li>
-                                    <li>ì­ì </li>
+                                    <li>팔로우</li>
+                                    <li>수정</li>
+                                    <li>삭제</li>
                                 </ul>
                             </div>
 
@@ -121,16 +121,16 @@
                             <div class="admin_container">
                                 <div class="admin"><img src="imgs/thumb.jpeg" alt="user"></div>
                                 <div class="comment">
-                                    <span class="user_id">Kindtiger</span>ê°ìì§ê° ë§ì´ íë ê°ë³´ë¤ãããããì¡°ê¸ë§íë´
-                                    <div class="time">2ìê°</div>
+                                    <span class="user_id">Kindtiger</span>강아지가 많이 힘든가보다ㅜㅜㅜㅜㅜ조금만힘내
+                                    <div class="time">2시간</div>
                                 </div>
                             </div>
 
                             <div class="user_container-detail">
                                 <div class="user"><img src="imgs/thumb02.jpg" alt="user"></div>
                                 <div class="comment">
-                                    <span class="user_id">in0.lee</span>ëë¬´ê·ì½ë¤ì ãããë§íí´ì~!
-                                    <div class="time">2ìê° <span class="try_comment">ëµê¸ ë¬ê¸°</span></div>
+                                    <span class="user_id">in0.lee</span>너무귀엽네요 ㅎㅎㅎ맞팔해요~!
+                                    <div class="time">2시간 <span class="try_comment">답글 달기</span></div>
                                     <div class="icon_wrap">
                                         <div class="more_trigger">
                                             <div class="sprite_more_icon"></div>
@@ -145,8 +145,8 @@
                             <div class="user_container-detail">
                                 <div class="user"><img src="imgs/thumb03.jpg" alt="user"></div>
                                 <div class="comment">
-                                    <span class="user_id">ye_solkim</span>ê°ìì§ ì´ë¦ì´ ë­ìì???
-                                    <div class="time">2ìê° <span class="try_comment">ëµê¸ ë¬ê¸°</span></div>
+                                    <span class="user_id">ye_solkim</span>강아지 이름이 뭐에요???
+                                    <div class="time">2시간 <span class="try_comment">답글 달기</span></div>
                                     <div class="icon_wrap">
                                         <div class="more_trigger">
                                             <div class="sprite_more_icon"></div>
@@ -161,8 +161,8 @@
                             <div class="user_container-detail">
                                 <div class="user"><img src="imgs/thumb02.jpg" alt="user"></div>
                                 <div class="comment">
-                                    <span class="user_id">in0.lee</span>ëë¬´ê·ì½ë¤ì ãããë§íí´ì~!
-                                    <div class="time">2ìê° <span class="try_comment">ëµê¸ ë¬ê¸°</span></div>
+                                    <span class="user_id">in0.lee</span>너무귀엽네요 ㅎㅎㅎ맞팔해요~!
+                                    <div class="time">2시간 <span class="try_comment">답글 달기</span></div>
                                     <div class="icon_wrap">
                                         <div class="more_trigger">
                                             <div class="sprite_more_icon"></div>
@@ -177,8 +177,8 @@
                             <div class="user_container-detail">
                                 <div class="user"><img src="imgs/thumb03.jpg" alt="user"></div>
                                 <div class="comment">
-                                    <span class="user_id">in0.lee</span>ëë¬´ê·ì½ë¤ì
-                                    <div class="time">2ìê° <span class="try_comment">ëµê¸ ë¬ê¸°</span></div>
+                                    <span class="user_id">in0.lee</span>너무귀엽네요
+                                    <div class="time">2시간 <span class="try_comment">답글 달기</span></div>
                                     <div class="icon_wrap">
                                         <div class="more_trigger">
                                             <div class="sprite_more_icon"></div>
@@ -193,8 +193,8 @@
                             <div class="user_container-detail">
                                 <div class="user"><img src="imgs/thumb02.jpg" alt="user"></div>
                                 <div class="comment">
-                                    <span class="user_id">in0.lee</span>ëë¬´ê·ì½ë¤ì ãããë§íí´ì~!
-                                    <div class="time">2ìê° <span class="try_comment">ëµê¸ ë¬ê¸°</span></div>
+                                    <span class="user_id">in0.lee</span>너무귀엽네요 ㅎㅎㅎ맞팔해요~!
+                                    <div class="time">2시간 <span class="try_comment">답글 달기</span></div>
                                     <div class="icon_wrap">
                                         <div class="more_trigger">
                                             <div class="sprite_more_icon"></div>
@@ -228,16 +228,16 @@
                         </div>
 
                         <div class="count_likes">
-                            ì¢ìì
+                            좋아요
                             <span class="count">2,351</span>
-                            ê°
+                            개
                         </div>
-                        <div class="timer">2ìê°</div>
+                        <div class="timer">2시간</div>
 
                         <div class="commit_field">
-                            <input type="text" placeholder="ëê¸ë¬ê¸°..">
+                            <input type="text" placeholder="댓글달기..">
 
-                            <div class="upload_btn">ê²ì</div>
+                            <div class="upload_btn">게시</div>
                         </div>
 
 
@@ -258,8 +258,8 @@
 
     <div class="del_pop">
         <div class="btn_box">
-            <div class="del">ì­ì </div>
-            <div class="cancel">ì·¨ì</div>
+            <div class="del">삭제</div>
+            <div class="cancel">취소</div>
         </div>
    </div>
 

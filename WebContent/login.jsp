@@ -1,5 +1,6 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -43,7 +44,7 @@
         <section class="h_inner">
 
             <h1 class="logo">
-                <a href="index.jsp">
+                <a href="index.html">
                     <div class="sprite_insta_icon"></div>
                     <div>
                         <div class="sprite_write_logo"></div>
@@ -62,10 +63,10 @@
 
 
             <div class="right_icons">
-                <a href="new_post.jsp"><div class="sprite_camera_icon"></div></a>
-                <a href="login.jsp"><div class="sprite_compass_icon"></div></a>
-                <a href="follow.jsp"><div class="sprite_heart_icon_outline"></div></a>
-                <a href="profile.jsp"><div class="sprite_user_icon_outline"></div></a>
+                <a href="new_post.html"><div class="sprite_camera_icon"></div></a>
+                <a href="login.html"><div class="sprite_compass_icon"></div></a>
+                <a href="follow.html"><div class="sprite_heart_icon_outline"></div></a>
+                <a href="profile.html"><div class="sprite_user_icon_outline"></div></a>
             </div>
         </section>
     </header>
